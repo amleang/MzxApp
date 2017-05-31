@@ -8,7 +8,7 @@ module.exports = {
     // First application
     {
       name      : 'Mzx',
-      script    : './bin/www',
+      script    : './server',
       env: {
         COMMON_VARIABLE: 'true'
       },
