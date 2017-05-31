@@ -29,7 +29,7 @@ module.exports = {
       ref  : 'origin/master',
       repo : 'git@github.com:amleang/Mzx.git',
       path : '/home/zal/www/production',
-      'post-deploy' : 'npm install && pm2 startOrRestart ecosystem.json --env production'
+      'post-deploy' : 'npm install && pm2 startOrRestart ecosystem.config --env production'
     
     }
   }
