@@ -1,0 +1,55 @@
+.home{
+    height: 55px;
+    /*width: 55px;*/
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    margin-top: -27.5px;
+    margin-left: -28.5px;
+}
+
+.progress{
+    position: relative;
+    width: 1052.5px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container{
+    margin-left: 28.5px;
+    border-left: 2px solid $g_color;
+    /*margin-top: 52.5px;*/
+}
+
+.label{
+    font-size: 24px;
+    color: #333;
+    height: 55px;
+    line-height: 55px;
+    padding-left: 30px;
+    padding-right: 25px;
+    display: inline-block;
+    margin-top: -27.5px;
+}
+
+.labelBorder{
+    width: 100%;
+    border-bottom: 2px solid #e6e6e6;
+    height: 27px;
+    display: inline-block;
+    margin-top: -27.5px;
+}
+
+.srcImg{
+    height: 220px;
+    display: block;
+    margin: 25px auto 20px 57.5px;
+    /*width: 100%;*/
+}
+
+.text{
+    font-size: 14px;
+    line-height: 30px;
+    padding-bottom: 35px;
+    margin-left: 57.5px;
+    color: #666;
+}

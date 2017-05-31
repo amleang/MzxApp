@@ -1,0 +1,86 @@
+
+.btnClass{
+    /*background-color: */
+}
+
+.btnTranslate{
+    background-color:transparent;
+}
+
+.redBg{
+    background-color: $g_color;
+    height: 48px;
+    width: 180px;
+    border-radius: 4px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid $g_color;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.redBg:hover{
+    background-color: #ff323f;
+    color: #fff;
+    border: 1px solid #ff323f;
+}
+
+.redBorder:hover, .whiteBorder:hover, .redBorder:hover .redFont,.whiteBg:hover ,.whiteBg:hover .redFont{
+    color: #fff;
+    border: 1px solid $g_color;
+    background-color: $g_color;
+    
+}
+
+.whiteBg{
+    background-color: #fff;
+    height: 48px;
+    width: 180px;
+    border-radius: 4px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid $g_color;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.noBg{
+    /*height: 50px;
+    width: 180px;
+    border-radius: 4px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid $g_color; */
+}
+
+.redBorder{
+    height: 48px;
+    width: 180px;
+    border-radius: 4px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid $g_color; 
+    cursor: pointer;
+    display: inline-block;
+}
+
+.whiteBorder{
+    height: 48px;
+    width: 180px;
+    border-radius: 4px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #fff; 
+    cursor: pointer;
+    display: inline-block;
+}
+
+.redFont{
+    color: $g_color;
+    font-size: 18px;
+}
+
+.whiteFont{
+    color: #fff;
+    font-size: 18px;
+}

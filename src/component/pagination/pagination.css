@@ -1,0 +1,20 @@
+.fl{float: left;}
+.fr{float: right;}
+.uiPagnation {display: block; margin: 50px 0px 50px auto; color: #535353; line-height: 29px; text-align: center;float:right}
+.uiPagnation a {float: left; width: 30px; height: 30px; vertical-align: middle; text-decoration: none; cursor: pointer;border:1px solid #e6e6e6;border-radius:2px}
+.uiPagnation .next,.uiPagnation .prev {margin-left: 8px; background-color: #f8f8f8; }
+.uiPagnation .next:before,.uiPagnation .prev:before { font-size: 14px }
+.uiPagnation .next:hover,.uiPagnation .prev:hover {color:#fff;border-radius: 2px;background-color: $g_color; }
+/*.uiPagnation .next:hover:before,.uiPagnation .prev:hover:before {color: #50c8ff;}*/
+.uiPagnation .nextDisable,.uiPagnation .prevDisable {background-color: #f8f8f8; cursor: no-drop;margin-left: 8px;}
+.uiPagnation .nextDisable:before,.uiPagnation .prev.disable:before {color: #a0a0a0 }
+.uiPagnation .num {width: 40px;height: 30px;margin-left:8px; font-size: 14px; color:#666;background-color: #f8f8f8;border:1px solid #e6e6e6; }
+.uiPagnation .numCurrent {width: 40px;height: 30px;font-size: 14px;background-color:$g_color;  color: #fff;margin-left: 8px;border: 1px solid $g_color;}
+.uiPagnation .num:hover{background-color:$g_color; color: #fff;width: 40px;height: 30px;border: 1px solid $g_color;}
+.uiPagnation .ellipsis {width: 42px; height: 30px; color: #707070; line-height: 30px }
+.uiPagnation input {width: 42px; height: 30px; border: 1px solid #e6e6e6;margin-left: 8px;background-color: #f8f8f8;text-align: center;padding-left:0px }
+.input:focus {border: 1px solid $g_color;}
+.uiPagnation .pageGo {min-width: 60px; margin-left: 10px; margin-right: 10px; background-color: #f8f8f8;  }
+.uiPagnation .pageGo:hover {color: #fff;border-radius: 2px;background-color: $g_color;}
+.pagnationCols{width: 30px;height: 30px;float:left}
+.dot{font-size: 14px;float: left;width: 12px;text-align: center;display: inline-block;margin-left: 8px;}

@@ -1,0 +1,51 @@
+/*声明 WebFont*/
+@font-face {
+  font-family: 'msyh';
+  src: url('../font/msyh.eot');
+  src:
+    url('../font/msyh.eot?#font-spider') format('embedded-opentype'),
+    url('../font/msyh.woff') format('woff'),
+    url('../font/msyh.ttf') format('truetype'),
+    url('../font/msyh.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+* {margin:0;border:0;padding:0;font-size: 14px;font-family:"microsoft yahei","msyh";}
+a {text-decoration: none; color:#333;}
+ul, ol {list-style: none;}
+
+input {
+    width: 160px;
+    height: 40px;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+select {
+    width: 140px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+:global(.g_right) {
+    float: right;
+}
+:global(.g_left) {
+    float: left;
+}
+:global(.clear) {
+    clear: both;
+}
+:global(#ec_cs_pannel) {
+        display: none
+}
+:global(.ec_cl_box) {
+        display: none
+}
+
+.app {
+}
+
+.container {
+    
+}

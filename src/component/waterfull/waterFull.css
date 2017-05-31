@@ -1,0 +1,16 @@
+.wfBox .colBox {
+    float: left;
+    margin: 0px 15px;
+}
+
+.wfBox .itmeBox {
+    margin-bottom: 9px;
+}
+
+.wfBox {
+    position: relative;
+    background-color:#f2f2f2;
+    overflow: hidden;
+    margin: 0 auto;
+    padding:0px 30px;
+}

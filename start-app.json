@@ -1,0 +1,44 @@
+{
+  "apps": [{
+    "name": "web_jzez",
+    "script": "server.js",
+    "instances" : "0",
+    "exec_mode" : "cluster",
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "watch": "./"
+  }],
+  "deploy":{
+    "pro":{
+      "user": "node",
+      "host": ["172.20.9.125","172.20.9.126"],
+      "ref": "origin/pro",
+      "repo": "git@git.oschina.net:brainqi/web-For-jzez.git",
+      "path": "/var/www/web-jzez",
+      // "ssh_options": "StrictHostKeyChecking=no",
+      "pre-deploy-local": "echo '    ○ 准备部署生产环境 …'",
+      "post-deploy" : "npm install --registry=https://registry.npm.taobao.org && NODE_ENV=production pm2 startOrRestart start-app.json"
+    },
+    
+    "dev":{
+      "user": "node",
+      "host": "172.20.8.109",
+      "ref": "origin/dev",
+      "repo": "git@git.coding.net:davych/substation.git",
+      "path": "/var/www/node/web_substation",
+      // "ssh_options": "StrictHostKeyChecking=no",
+      "pre-deploy-local": "echo '    ○ 准备部署开发环境 …'",
+      "post-deploy" : "echo 'start web pages.'"
+    },
+    
+    "test":{
+      "user": "root",
+      "host": "172.20.7.101",
+      "ref": "origin/master",
+      "repo": "git@git.coding.net:davych/web-For-jzez.git",
+      "path": "/var/www/web_jzez",
+      // "ssh_options": "StrictHostKeyChecking=no",
+      "pre-deploy-local": "echo '    ○ 准备部署测试环境 …'",
+      "post-deploy" : "npm install --registry=https://registry.npm.taobao.org && NODE_ENV=test pm2 startOrRestart start-app.json"
+    }
+  }
+}

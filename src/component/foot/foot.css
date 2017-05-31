@@ -1,0 +1,26 @@
+:global{
+.foot{
+    border-top: 1px solid #575757;
+}
+.foot .title{
+    font-size: 20pt;
+    font-weight:bold;
+    padding: 20px;
+    color: #575757;
+}
+.foot .inner{
+    margin-left:20px;
+    margin-right:20px;  
+}
+.foot ul{
+    list-style: none;
+}
+.foot ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.foot ul li img{
+    max-width: 80%;
+}
+}
